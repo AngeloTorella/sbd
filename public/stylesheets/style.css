@@ -1,0 +1,53 @@
+body{
+  background-color: #CC3366;
+  font-family: 'Poppins', sans-serif;
+  align-self: center;
+}
+
+a{
+  color: #000000;
+}
+
+a1{
+  color: #CC3366;
+}
+
+button{
+  width: 40%;
+}
+
+nav a:hover{
+  color:#ffffff;
+  background-color: #CC3366;
+  border-radius: 5px;
+  transition: 0.3s erase;
+}
+
+nav a1:hover{
+  color:#ffffff;
+  background-color: #CC3366;
+  border-radius: 5px;
+  transition: 0.3s erase;
+}
+
+.logo{
+  color: #000000;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px ;
+}
+
+h1{
+  color: #000000;
+  font-family: 'Pacifico', cursive;
+}
+
+footer{
+  width: 100px;
+  height: auto;
+}
+
+.iffooter{
+  width: 100% !important;
+  height: 100px;
+}
+

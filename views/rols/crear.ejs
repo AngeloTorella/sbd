@@ -1,0 +1,22 @@
+<%- include('../layouts/cabecera.ejs') %>   
+
+
+<form method="post" action="/rols">
+  <div class="form-group mb-3 col-3 ">
+      <label for="myinput" class="form-label"> nombre:</label>
+      <input type="text" name="nombre" id="myinput" class="form-control" placeholder="" aria-describedby="helpId">
+      <small id="helpId" class="text-muted">ingresa el nuevo rol</small>
+  </div>
+  <div class="mb-3 col-3 ">
+    <label for="myinput" class="form-label"> descripcion</label>
+    <input type="text" name="descripcion" id="myinput" class="form-control" placeholder="" aria-describedby="helpId">
+    <small id="helpId" class="text-muted">ingresa su descripcion</small>
+</div>
+  <button type="submit" class="btn btn-succes" >guardar</button>
+</form>
+</div>
+<a type="submit" class="btn btn-primary" href="/rols">cancelar</a>
+</form>
+
+
+<%- include('../layouts/pie') %>

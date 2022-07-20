@@ -1,0 +1,53 @@
+--Entidades debiles
+
+Drop table Pasillo;
+Drop table Anaquel_Caramelo;
+Drop table Almacen_Caramelo;
+Drop table Estatus_Reposicion;
+Drop table Estatus_Orden_Compra;
+Drop table Lista_Reposicion;
+Drop table Sabor_Caramelo;
+Drop table Imagen;
+Drop table Descuento;
+Drop table Horario_Empleado;
+Drop table Dep_Empleado;
+Drop table Dep_Tienda;
+Drop table Lista_Presupuesto;
+Drop table Lista_Compra;
+Drop table Orden_Compra;
+Drop table Reposicion;
+Drop table Almacen;
+Drop table Anaquel;
+Drop table Estatus_Compra;
+Drop table Pago;
+Drop table Historico_Puntos;
+Drop table Residencia;
+
+--Entidades fuertes
+Drop table Banco cascade;
+Drop table Banco_Virtual cascade;
+Drop table Caramelo cascade;
+Drop table Cheque cascade;
+Drop table Cliente_juridico cascade;
+Drop table Cliente_natural cascade;
+Drop table Compra_fisico cascade;
+Drop table Compra_web cascade;
+Drop table Contacto cascade;
+Drop table departamento cascade;
+Drop table Efectivo cascade;
+Drop table Empleado cascade;
+Drop table Estatus cascade;
+Drop table Horario cascade;
+Drop table Lugar cascade;
+Drop table Pago_Movil cascade;
+Drop table Presupuesto cascade;
+Drop table Privilegio cascade;
+Drop table Punto_obtenido cascade;
+Drop table Rol cascade;
+Drop table Sabor cascade;
+Drop table Tarjeta cascade;
+Drop table Telefono cascade;
+Drop table Tienda cascade;
+Drop table Usuario cascade;
+Drop table Valor_Punto cascade;
+Drop table Zelle cascade;
