@@ -32,10 +32,7 @@ module.exports={
     })
   },
   editar:function (req,res) {
-    rol.retornarPorClave(client,req.params.codigo,function (err,registrosparams) {
-      Console.log(registrosparams[0])
-      res.render('rols/editar',{rol:registrosparams[0]})
-    })
+    res.render('rols/editar')
   },
   actualizar:function (req,res) {
     console.log(req.body.nombre)
