@@ -32,12 +32,15 @@ module.exports={
     })
   },
   editar:function (req,res) {
-    res.render('rols/editar')
-  },
+    rol.retornarPorClave(client,req.params.codigo,function (err,registrosparams) {
+      console.log(registrosparams.rows[0])
+      res.render('rols/editar',{rol:registrosparams.rows[0]})
+    }) 
+  }, 
   actualizar:function (req,res) {
     console.log(req.body.nombre)
   },
-  ordenar:function (req,res) {
+  ordenar:function (req,res) { 
     console.log(req.body.nombre)
   }
 

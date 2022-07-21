@@ -11,8 +11,8 @@ router.get('/',rolsController.index);
 router.get('/crear',rolsController.crear);
 router.post('/',rolsController.guardar);
 router.post('/eliminar/:codigo',rolsController.eliminar);
-router.post('/editar/:codigo',rolsController.editar);
-router.post('/actualizar',rolsController.actualizar);
+router.get('/editar/:codigo',rolsController.editar);  
+router.post('/actualizar',rolsController.actualizar); 
 
 
 

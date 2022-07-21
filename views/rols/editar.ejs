@@ -2,16 +2,16 @@
 
 
 <form method="post" action="/">
+
   <div class="form-group mb-3 col-3 ">
-      <label for="myinput" class="form-label"> nombre</label>
-      <input type="text" name="nombre" id="myinput" class="form-control" placeholder="" aria-describedby="helpId">
-      <small id="helpId" class="text-muted">ingresa el nuevo rol</small>
+      <label for="myinput" class="form-label">Nombre: <br><%=rol.nombre%> </label>
+      <input type="text" value="" name="nombre" id="myinput" class="form-control" placeholder="" aria-describedby="helpId">
   </div>
   <div class="mb-3 col-3 ">
-    <label for="myinput" class="form-label"> descripcion</label>
-    <input type="text" name="descripcion" id="myinput" class="form-control" placeholder="" aria-describedby="helpId">
-    <small id="helpId" class="text-muted">ingresa su descripcion</small>
+    <label for="myinput" class="form-label">descripcion: <br><%=rol.descripcion%> </label>
+    <input type="text" value="" name="descripcion" id="myinput" class="form-control" placeholder="" aria-describedby="helpId">
 </div>
+<br>
   <button type="submit" class="btn btn-primary" >Button</button>
 </form>
 

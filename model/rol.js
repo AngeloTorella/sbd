@@ -7,10 +7,10 @@ module.exports={
   }, 
   retornarPorClave:function (conexion,codigo,funcion) {
     conexion.query('select*from rol where codigo=$1',[codigo],funcion)
-  },
+  }, 
   borrar:function (conexion,clave,funcion) {
     conexion.query('delete from rol where codigo=$1',[clave],funcion)
-  },
+  }, 
   ordenar:function (conexion,clave,funcion) {
-  }
-}
+  } 
+} 
