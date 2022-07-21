@@ -6,6 +6,16 @@ module.exports={
     conexion.query("select codigo, nombre from caramelo",funcion)
   },
   insertar:function(conexion,datos,funcion){
-    conexion.query('insert into rol(nombre,descripcion) values($1,$2)',[datos.nombre, datos.descripcion],funcion)
+    conexion.query('insert into caramelo(nombre,descripcion) values($1,$2)',[datos.nombre, datos.descripcion],funcion)
+  },  
+  retornarPorClave:function (conexion,codigo,funcion) {
+    conexion.query('select codigo, porcentaje from descuento where codigo=$1',[codigo],funcion)
+  }, 
+  borrar:function (conexion,clave,funcion) {
+    conexion.query('delete from descuento where codigo=$1',[clave],funcion)
+  }, 
+  ordenar:function (conexion,clave,funcion) {
+  },
+  uno:function (conexion,clave,funcion) {
   }
 }

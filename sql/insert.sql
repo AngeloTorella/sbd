@@ -95,46 +95,46 @@ VALUES(1,'Parroquia','El Cafetal',41),
 
 --Insert de las tiendas
 INSERT INTO TIENDA(nombre,minisweet,t_lugar) 
-VALUES('mini sweet UCAB 1',TRUE,1),
-      ('mini sweet UCAB 2',FALSE,2),
-      ('mini sweet UCAB 3',TRUE,3),
-      ('mini sweet UCAB 4',TRUE,4),
-      ('mini sweet UCAB 5',FALSE,5),
-      ('mini sweet UCAB 6',TRUE,6),
-      ('mini sweet UCAB 7',FALSE,7),
-      ('mini sweet UCAB 8',TRUE,8),
-      ('mini sweet UCAB 9',FALSE,9),
-      ('mini sweet UCAB 10',TRUE,10),
-      ('mini sweet UCAB 11',TRUE,11),
-      ('mini sweet UCAB 12',TRUE,12),
-      ('mini sweet UCAB 13',FALSE,13),
-      ('mini sweet UCAB 14',TRUE,14),
-      ('mini sweet UCAB 15',TRUE,15),
-      ('mini sweet UCAB 16',FALSE,16),
-      ('mini sweet UCAB 17',TRUE,17),
-      ('mini sweet UCAB 18',TRUE,18),
-      ('mini sweet UCAB 19',FALSE,19),
-      ('mini sweet UCAB 20',TRUE,20),
-      ('mini sweet UCAB 21',FALSE,21),
-      ('mini sweet UCAB 22',TRUE,22),
-      ('mini sweet UCAB 23',FALSE,23),
-      ('mini sweet UCAB 24',TRUE,24),
-      ('mini sweet UCAB 25',TRUE,25),
-      ('mini sweet UCAB 26',TRUE,26),
-      ('mini sweet UCAB 27',FALSE,27),
-      ('mini sweet UCAB 28',TRUE,28),
-      ('mini sweet UCAB 29',TRUE,29),
-      ('mini sweet UCAB 30',TRUE,30),
-      ('mini sweet UCAB 31',FALSE,31),
-      ('mini sweet UCAB 32',TRUE,32),
-      ('mini sweet UCAB 33',TRUE,33),
-      ('mini sweet UCAB 34',FALSE,34),
-      ('mini sweet UCAB 35',TRUE,35),
-      ('mini sweet UCAB 36',TRUE,36),
-      ('mini sweet UCAB 37',TRUE,37),
-      ('mini sweet UCAB 38',FALSE,38),
+VALUES('mini sweet UCAB Cafetal',TRUE,1),
+      ('mini sweet UCAB Maracaibo',FALSE,2),
+      ('mini sweet UCAB Barquisimeto',TRUE,3),
+      ('mini sweet UCAB El Tigre',TRUE,4),
+      ('mini sweet UCAB Guanare',FALSE,5),
+      ('mini sweet UCAB Paraguana',TRUE,6),
+      ('mini sweet UCAB Valle la Pascua',FALSE,7),
+      ('mini sweet UCAB Urena',TRUE,8),
+      ('mini sweet UCAB San Felix',FALSE,9),
+      ('mini sweet UCAB Carora',TRUE,10),
+      ('mini sweet UCAB Acarigua',TRUE,11),
+      ('mini sweet UCAB Tariba',TRUE,12),
+      ('mini sweet UCAB Petare',FALSE,13),
+      ('mini sweet UCAB Maracay',TRUE,14),
+      ('mini sweet UCAB Puerto Ordaz',TRUE,15),
+      ('mini sweet UCAB San Cristobal',FALSE,16),
+      ('mini sweet UCAB Los Teques',TRUE,17),
+      ('mini sweet UCAB Anaco',TRUE,18),
+      ('mini sweet UCAB San Casimiro',FALSE,19),
+      ('mini sweet UCAB San Antonio de los Altos',TRUE,20),
+      ('mini sweet UCAB Antimano',FALSE,21),
+      ('mini sweet UCAB La Guaira',TRUE,22),
+      ('mini sweet UCAB Margarita',FALSE,23),
+      ('mini sweet UCAB Guanta',TRUE,24),
+      ('mini sweet UCAB Puerto la Cruz',TRUE,25),
+      ('mini sweet UCAB Merida',TRUE,26),
+      ('mini sweet UCAB Barinas',FALSE,27),
+      ('mini sweet UCAB Tucacas',TRUE,28),
+      ('mini sweet UCAB Costa Oriental del Lago',TRUE,29),
+      ('mini sweet UCAB La Victoria',TRUE,30),
+      ('mini sweet UCAB Villa de Cura',FALSE,31),
+      ('mini sweet UCAB Ciudad Ojeda',TRUE,32),
+      ('mini sweet UCAB Ciudad Bolivar',TRUE,33),
+      ('mini sweet UCAB Barcelona',FALSE,34),
+      ('mini sweet UCAB San Fernando de Apure',TRUE,35),
+      ('mini sweet UCAB Valencia',TRUE,36),
+      ('mini sweet UCAB Maiquetia',TRUE,37),
+      ('mini sweet UCAB Carupano',FALSE,38),
       ('mini sweet UCAB 39',TRUE,39),
-      ('mini sweet UCAB 40',TRUE,40);
+      ('mini sweet UCAB Trujillo',TRUE,40);
 
 insert into ROL (nombre, descripcion) values ('Inesita', 'Padberg Inc');
 insert into ROL (nombre, descripcion) values ('Danna', 'Moen Inc');
@@ -1898,11 +1898,11 @@ insert into VALOR_PUNTO (valor) values (31);
 insert into VALOR_PUNTO (valor) values (96);
 insert into VALOR_PUNTO (valor) values (91);
 
-insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, codigo_Registro, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (37, 1, 'dpilbury0@n', 46, 67, '36 Fulton Junction', 'Sub-Ex', 'Pannier', 'Daniella Pilbury', 58, 1);
-insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, codigo_Registro, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (38, 2, 'ccochern1@c', 14, 49, '48 Clarendon Pass', 'Greenlam', 'Cardify', 'Calypso Cochern', 16, 2);
-insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, codigo_Registro, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (39, 3, 'dcrewdson2@e', 27, 72, '06 Schlimgen Road', 'Domainer', 'Viva', 'Dannye Crewdson', 13, 3);
-insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, codigo_Registro, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (40, 4, 'msjollema3@d', 81, 84, '92 Steensland Hill', 'Mat Lam Tam', 'Bytecard', 'Myron Sjollema', 87, 4);
-insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, codigo_Registro, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (41, 5, 'rangeau4@g', 82, 61, '7 Sauthoff Way', 'Overhold', 'Job', 'Regine Angeau', 90, 5);
+insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (37, 1, 'dpilbury0@n', 46, '36 Fulton Junction', 'Sub-Ex', 'Pannier', 'Daniella Pilbury', 58, 1);
+insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (38, 2, 'ccochern1@c', 14, '48 Clarendon Pass', 'Greenlam', 'Cardify', 'Calypso Cochern', 16, 2);
+insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (39, 3, 'dcrewdson2@e', 27, '06 Schlimgen Road', 'Domainer', 'Viva', 'Dannye Crewdson', 13, 3);
+insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (40, 4, 'msjollema3@d', 81, '92 Steensland Hill', 'Mat Lam Tam', 'Bytecard', 'Myron Sjollema', 87, 4);
+insert into CLIENTE_JURIDICO (cj_usuario, RIF, Email, Puntos, Detalle_Direccion, Denominacion_comercial, Razon_social, Pagina_Web, Capital_Disponible, cj_tienda) values (41, 5, 'rangeau4@g', 82, '7 Sauthoff Way', 'Overhold', 'Job', 'Regine Angeau', 90, 5);
 
 insert into CONTACTO (Nombre, Apellido, fk_juridico) values ('Gavin', 'Tennet', 1);
 insert into CONTACTO (Nombre, Apellido, fk_juridico) values ('Karissa', 'Stearn', 3);

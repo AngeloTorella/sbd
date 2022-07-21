@@ -15,6 +15,5 @@ router.get('/editar/:codigo',rolsController.editar);
 router.post('/actualizar',rolsController.actualizar); 
 
 
-
 module.exports = router; 
  

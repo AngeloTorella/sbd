@@ -1,5 +1,5 @@
 module.exports={
   obtener:function (conexion,funcion) {
-    conexion.query('select*from presupuesto',funcion)
+    conexion.query('select codigo from presupuesto',funcion)
   }
 }

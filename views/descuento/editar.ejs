@@ -1,3 +1,22 @@
 <%- include('../layouts/cabecera.ejs') %>   
 
+
+<form method="post" action="../actualizar/">
+
+  <div class="form-group mb-3 col-3 ">
+      <label for="myinput" class="form-label">Nombre: <br><%=descuento.nombre%> </label>
+      <input type="text" value="" name="nombre" id="myinput" class="form-control" placeholder="" aria-describedby="helpId">
+  </div>
+  <div class="mb-3 col-3 ">
+    <label for="myinput" class="form-label">fecha_inicio: <br><%=descuento.fecha_inicio%> </label>
+    <input type="date" value="" name="descripcion" id="myinput" class="form-control" placeholder="" aria-describedby="helpId">
+  </div>
+  <div class="mb-3 col-3 ">
+    <label for="myinput" class="form-label">fecha_fin: <br><%=descuento.fecha_fin%> </label>
+    <input type="date" value="" name="descripcion" id="myinput" class="form-control" placeholder="" aria-describedby="helpId">
+</div>
+<br>
+  <button type="submit" class="btn btn-primary" >Button</button>
+</form>
+
 <%- include('../layouts/pie') %>

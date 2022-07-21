@@ -11,10 +11,9 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var rolsRouter = require('./routes/rols');
-var prodRouter =require('./routes/prod')
-var presupuestoRouter =require('./routes/presupuesto')
+var prodRouter =require('./routes/prod');
+var presupuestoRouter =require('./routes/presupuesto');
 var descuentoRouter =require('./routes/descuento');
-
 var usuariosRouter = require('./routes/usuarios');
 
 var app = express(); 

@@ -127,7 +127,6 @@
       RIF INTEGER,   
       Email CHARACTER VARYING(20) NOT NULL,
       Puntos INTEGER NOT NULL,
-      codigo_Registro INTEGER NOT NULL,
       Detalle_Direccion CHARACTER VARYING(40) NOT NULL,
       Denominacion_comercial CHARACTER VARYING(50) NOT NULL,
       Razon_social CHARACTER VARYING(30) NOT NULL,

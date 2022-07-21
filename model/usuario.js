@@ -1,6 +1,6 @@
 module.exports={
   obtener:function (conexion, funcion){
-    conexion.query('select * from usuario',funcion)
+    conexion.query('select nombre, contrasenia from usuario',funcion)
   },
   insertar:function(conexion,datos,funcion){
     conexion.query('insert into usuario (nombre,contrasenia) values ($1,$2)',[datos.nombre, datos.clave],funcion)
