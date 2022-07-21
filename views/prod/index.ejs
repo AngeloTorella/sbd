@@ -1,0 +1,44 @@
+<%- include('../layouts/cabecera.ejs') %>   
+
+        <a href="/rols/crear" type="button" class="btn btn-primary">Agregar rol</a>
+    <div class="table-sm mt-5">
+      <table class="table table-striped bg-light table-hover rounded" id="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">id</th>
+            <th scope="col">nombre</th>
+            <th scope="col">descripcion</th>
+            <th scope="col">accion</th>
+          </tr>
+        </thead>
+        <tbody id="myTable">
+          <tr>
+              <td> </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              
+              <td>
+                <form class="d-flex" method="get" action="/rols/editar/">
+                  <div class="col">
+                    <div class="mb-3">
+                      <button type="submit" class="btn btn-warning">editar</button>
+                    </div>
+                  </div>
+                </form>
+                <form class="d-flex" method="post" action="/rols/eliminar/">
+                  <div class="col">
+                    <div class="mb-3">
+                      <button type="submit" class="btn btn-danger">borrar</button>
+                    </div>
+                  </div>
+                </form>
+              </td>
+          </tr>
+        </tbody>
+      </table>
+      
+
+    </div>
+    <%- include('../layouts/pie') %>
