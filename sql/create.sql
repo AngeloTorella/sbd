@@ -109,7 +109,7 @@
 
     CREATE TABLE VALOR_PUNTO(
     codigo serial,
-    valor integer NOT NULL,
+    valor real   NOT NULL,
     CONSTRAINT pk_vp PRIMARY KEY(codigo)
   );
 

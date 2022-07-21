@@ -6,6 +6,6 @@ module.exports={
     conexion.query('insert into usuario (nombre,contrasenia) values ($1,$2)',[datos.nombre, datos.clave],funcion)
   },  
   retornarPorClave:function (conexion,codigo,funcion) {
-    conexion.query('select * from usuario where codigo=$1',[codigo],funcion)
+    conexion.query('select * from usuario where id=$1',[codigo],funcion)
   }  
 } 

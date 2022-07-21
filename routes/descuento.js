@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 */
 /*rest*/
 router.get('/',descuentoController.index);
-router.get('/',descuentoController.crear);
+router.get('/crear',descuentoController.crear);
 
 
 

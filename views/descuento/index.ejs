@@ -1,48 +1,6 @@
 <%- include('../layouts/cabecera.ejs') %> 
 
-<div class="container-fluid m-2">
-  <h1 class="text-center"><strong> DESCUENTOS</strong></h1>
-  <br><br>
-  <form method="post" action="/">
-    <div class="col-4">
-      <h1><strong> Producto</strong></h1>
-    </div>
-    <div class="col-4">
-      <div class="input-group">
-        <select class="form-select" id="inputGroupSelect" aria-label="button-addon">
-          <option selected>Producto...</option>
-          <% for( let n = 0; n < prodl.rows.length; n++ ) { %>
-          
-            <option value=<%=n %> ><%=prodl.rows[n].nombre  %></option>
-          <% } %>
-        </select>
-      </div>
-    </div>
-  </div>
-  <div class="row mt-3">
-    <div class="col-2">
-      <label for="numero" class="from-label"> %</label>
-      <input type="number" class="form-control" required>
-    </div>
-    <div class="col">
-      <label for="Fecha_inicio" class="from-label">Fecha_inicio</label>
-      <input type="date" class="form-control"required>
-    </div>
-    <div class="col">
-      <label for="Fecha_fin" class="from-label">Fecha_fin</label>
-      <input type="date" class="form-control"required>
-    </div>
-  </div>
-  <div class="row  mt-3">
-    <div class="col">
-      <a href="/descuento" type="button" class="btn btn-primary">Aceptar</a>
-    </div>
-    <div class="col">
-      <button type="submit" class="btn btn-primary">Cancelar</button>
-    </div>
-  </div>
-</form>
-
+<a href="/descuento/crear" type="button" class="btn btn-primary">Agregar rol</a>
   <div class="table-sm mt-5">
     <table class="table table-striped bg-light table-hover rounded" id="table">
       <thead>
