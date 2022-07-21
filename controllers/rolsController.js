@@ -11,7 +11,7 @@ module.exports={
       console.log(datos )
       res.render('rols/index.ejs', { title: 'Express', rols: datos})
     })
-  },
+  }, 
   crear:function(req,res){
     res.render('rols/crear')
   },

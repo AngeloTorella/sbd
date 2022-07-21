@@ -6,8 +6,14 @@ module.exports={
     //hago uso de lo que tenemos en modelo 
     descuento.obtener(client,function (err,datos) {
       console.log(datos)
-      //selecciono la ruta y los datos a enviar
-      res.render('descuento/index',{title:'decsuentos',productos:datos})
+      descuento.myproducto(client,function (err,lprod) {
+      res.render('descuento/index',{title:'decsuentos',productos:datos, prodl:lprod})
+      })
     })
+        
+      //selecciono la ruta y los datos a enviar
+  },
+  crear:function(req,res){
+    res.render('descuento/crear')
   }
 }

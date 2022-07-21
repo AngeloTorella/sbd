@@ -21,7 +21,7 @@
     descripcion CHARACTER VARYING(10) not null,
     nombre VARCHAR(20) NOT NULL,
     tipo VARCHAR(20),
-    precio_al_menor numeric(50) NOT NULL,
+    precio_al_menor numeric(50) NOT NULL ,
     precio_al_mayor numeric(50) NOT NULL,
     peso NUMERIC(5) NOT NULL,
     tamanio VARCHAR(15) NOT NULL,

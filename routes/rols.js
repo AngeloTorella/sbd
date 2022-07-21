@@ -5,7 +5,7 @@ const rolsController =require('../controllers/rolsController')
 router.get('/', function(req, res, next) {
   res.render('/rol/index', { title: 'Express' });
 });
-*/
+*/ 
 /*rest*/
 router.get('/',rolsController.index);
 router.get('/crear',rolsController.crear);
