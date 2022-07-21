@@ -6,6 +6,6 @@ module.exports={
     conexion.query("select codigo, nombre from caramelo",funcion)
   },
   insertar:function(conexion,datos,funcion){
-    conexion.query('insert into rol(nombre,descripcion) values($1,$2)',[datos.nombre, datos.descripcion],funcion)
+    conexion.query('insert into descuento() values($1,$2)',[datos.nombre, datos.descripcion],funcion)
   }
 }

@@ -7,5 +7,11 @@ module.exports={
       console.log(datos )
       res.render('usuarios/index.ejs', { title: 'Express', user: datos})
     })
+  },
+  guardar:function (req,res) {
+    console.log(req.body);
+    usuario.insertar(client,req.body,function(err){
+       res.redirect('/usuarios');
+    })
   }
 }
